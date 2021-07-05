@@ -14,22 +14,25 @@
 2. maven(ver.3.8.1)をインストール
 3. groovy(ver.3.0.8)をインストール
 4. pochiをインストール
-  > $ brew tap tamada/brew
+    > $ brew tap tamada/brew
   
-  > $ brew install pochi
+    > $ brew install pochi
   
 5. pochiをコンパイル
-  > $ git clone https://github.com/tamada/pochi.git
+    > $ git clone https://github.com/tamada/pochi.git
 
-  > $ cd pochi
+    > $ cd pochi
 
-  > $ mvn package
+    > $ mvn package
     
 ## 手順
 1. pochiを使用して，全ての演習課題に対して教科書のプログラムと学生が作成したプログラムの類似度を求める
-  > $　pochi extracting_birthmarks.groovy similarity1.jar
+    > $　pochi extracting_birthmarks.groovy similarity1.jar
  
-  > $　pochi comparing_birthmarks.groovy similarity1.jar
+    > $　pochi comparing_birthmarks.groovy similarity1.jar
 2. 求めた全ての演習課題での類似度から，その学生の成長曲線を作成
+
+    ![スクリーンショット 2021-07-05 13 41 14](https://user-images.githubusercontent.com/72781211/124483080-ea698d00-dde4-11eb-99f1-ce6c49d89621.png)
+
 3. 全学生の成長曲線から，基準となる成長曲線を求める
 4. 複数の学生に対してプログラムの盗用の疑いがある場合，それぞれの学生の成長曲線と基準の成長曲線から，コピー元とコピー先を推測する
