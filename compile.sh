@@ -17,6 +17,7 @@ DIR=$(dirname $1)
 javac -d $DIR $1
 #ex) javac -d .//課題1/0001_1 .//課題1/0001_1/BackSlashPrinter.java
 
+
 #以下のコマンドで実行する
 #find ./ -type f -name "*.java" -exec ./compile.sh {} \;
 
