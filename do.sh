@@ -3,6 +3,7 @@
 SRC=$(basename $1)
 #ディレクトリ上の全ての'~.java'を'SRC'に代入
 #ex) BackSlashPrinter.java
+#なくてもコンパイルできる
 
 
 DIR=$(dirname $1)
@@ -15,4 +16,4 @@ DIR=$(dirname $1)
 
 
 javac -d $DIR $1
-
+#ex) javac -d .//課題1/0001_1 .//課題1/0001_1/BackSlashPrinter.java
