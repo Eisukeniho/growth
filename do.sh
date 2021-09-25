@@ -3,7 +3,6 @@
 SRC=$(basename $1)
 #ディレクトリ上の全ての'~.java'を'SRC'に代入
 #ex) BackSlashPrinter.java
-#なくてもコンパイルできる
 
 
 DIR=$(dirname $1)
