@@ -17,8 +17,8 @@ echo -----------------------------------------------
 echo $1
 #解答と、どのプログラムを比較しているか表示
 
-pochi comparing_birthmarks.groovy .//解答1/BackSlashPrinter.class $1
+pochi comparing_birthmarks.groovy .//解答1/BackSlashPrinter.class $1 >> k1.txt
 
 
 #以下のコマンドで実行する
-#find ./ -type f -name "*.class" -exec ./comparing.sh {} \;
+#find ./ -type f -name "*.class" -exec ./comparing_k1.sh {} \;
